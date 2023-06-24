@@ -17,7 +17,7 @@ app.use(function (req, res, next) {
   next();
 });
 
-const notes = ['lalal'];
+const notes = [];
 let nextId = 1;
 
 app.get("/notes", (req, res) => {
